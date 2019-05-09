@@ -167,13 +167,22 @@
 }
 
 .caixa-quatro {
-
+	width: 100vw;
+    height: 90vh;
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .titulo-tres {
 	color: #000000;
 	font-family: Roboto;
 	font-size: 5em;
+	width: 80vw;
+	height: 6vh;
+	display: flex;
+	align-items: center;
 }
 
 .imagem-quatro {
@@ -201,41 +210,85 @@
 }
 
 .texto-icone {
-
+	font-family: Roboto;
+	font-size: 2.9em;
+	width: 34vw;
 }
 
 .texto-icone-dois {
-
+	font-family: Roboto;
+	font-size: 2.9em;
+	width: 34vw;
 }
 
 .caixa-cinco {
 	background-color: #00C733;
+	width: 100vw;
+    height: 100vh;
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.conteiner-foto-tres {
+	width: 94vw;
+	height: 26vh;
+	background-color: #FFFFFF;
+	border-radius: 6em;
+	box-shadow: 0em 0.3em 0.6em #A9A9A9;	
+}
+
+.foto-contato {
+
 }
 
 .titulo-quatro {
 	color: #FFFF00;
 	font-family: Roboto;
 	font-size: 5em;
+	width: 80vw;
+	height: 6vh;
+	display: flex;
+	align-items: center;
 }
 
 .texto-tres {
-
+	width: 80vw;
+	height: 18vh;
+	font-size: 3em;
+	font-family: Roboto;
+	color: #FFFFFF;
 }
 
 .texto-quatro {
-
+	width: 80vw;
+	height: 18vh;
+	font-size: 3em;
+	font-family: Roboto;
+	color: #FFFFFF;
 }
 
 .texto-cinco {
-
+	width: 80vw;
+	height: 18vh;
+	font-size: 3em;
+	font-family: Roboto;
+	color: #FFFFFF;
 }
 
 .caixa-final {
-
+	width: 100vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .texto-final {
-
+	font-family: Roboto;
+	font-size: 2.6em;
+	width: 80vw;
 }
 
 .logo-vnw {
