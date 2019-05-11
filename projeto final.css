@@ -25,7 +25,7 @@
 	list-style: none;
 	font-family: Roboto;
 	color: #006C1C;
-	font-size: 4em;
+	font-size: 1.6em;
 	width: 45vw;
 	height: 23vh;
 	display: flex;
@@ -37,35 +37,35 @@
 
 }
 
-.caixa-um {
+.box-inicio {
 	width: 100vw;
-	height:	110vh;
+	height:	116vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
 
-.texto-um {
+.texto-apresentação {
 	width: 80vw;
 	height: 18vh;
-	font-size: 2.8em;
+	font-size: 0.9em;
 	font-family: Roboto;
 	color: #000000;
 }
 
-.imagem-um {
+.foto-apresentação {
 
 }
 
-.imagem-dois {
+.foto-meio {
 
 }
 
-.imagem-tres {
+.foto-final {
 
 }
 
-.caixa-dois {
+.conteiner-icones {
 	width: 100vw;
 	height:	90vh;
 	display: flex;
@@ -73,19 +73,19 @@
 	flex-direction: column;
 }
 
-.titulo-um {
+.title-important {
 	font-family: Roboto;
 	color: #000000;
-	font-size: 5em;
+	font-size: 2em;
 	width: 80vw;
 	height: 6vh;
 	display: flex;
 	align-items: center;
 }
 
-.menu-dois {
+.menu-social {
 	list-style: none;
-    font-size: 3.2em;
+    font-size: 1em;
     font-family: Roboto;
     color: #000000;
     width: 80vw;
@@ -96,39 +96,39 @@
     flex-wrap: wrap;
 }
 
-.item-menu-um {
+.item-alfabetização {
 
 }
 
-.item-menu-dois {
+.item-reforço {
 
 }
 
-.item-menu-tres {
+.item-aulas {
 
 }
 
-.item-menu-quatro {
+.item-palestras {
 
 }
 
-.item-menu-cinco {
+.item-artesanato {
 
 }
 
-.item-menu-seis {
+.item-teatro {
 
 }
 
-.item-menu-sete {
+.item-dança {
 
 }
 
-.item-menu-oito {
+.item-capoeira {
 
 }
 
-.caixa-tres {
+.box-impacto {
 	background-color: #006C1C;
 	width: 100vw;
 	height:	50vh;
@@ -137,37 +137,37 @@
 	flex-direction: column;
 }
 
-.titulo-dois {
+.title-inpact {
 	color: #FFFF00;
 	font-family: Roboto;
-	font-size: 5em;
+	font-size: 2em;
 	width: 80vw;
 	height: 6vh;
 	display: flex;
 	align-items: center;
 }
 
-.texto-dois {
+.paragrafo-depoimento {
 	width: 80vw;
 	height: 18vh;
-	font-size: 3em;
+	font-size: 1em;
 	font-family: Roboto;
 	color: #FFFFFF;
 }
 
-.conteiner-foto-dois {
+.conteiner-image {
 	width: 94vw;
 	height: 26vh;
 	background-color: #FFFFFF;
-	border-radius: 6em;
-	box-shadow: 0em 0.3em 0.6em #A9A9A9;
+	border-radius: 2em;
+	box-shadow: 0em 0.2em 0.5em #A9A9A9;
 }
 
 .foto-impacto {
 
 }
 
-.caixa-quatro {
+.box-parceria {
 	width: 100vw;
     height: 90vh;
     display: flex;
@@ -176,53 +176,53 @@
 	justify-content: space-around;
 }
 
-.titulo-tres {
+.title-friends {
 	color: #000000;
 	font-family: Roboto;
-	font-size: 5em;
+	font-size: 2em;
 	width: 80vw;
 	height: 6vh;
 	display: flex;
 	align-items: center;
 }
 
-.imagem-quatro {
+.image-sesc {
 
 }
 
-.imagem-cinco {
+.image-quintal {
 
 }
 
-.imagem-seis {
+.image-radio {
 
 }
 
-.imagem-sete {
+.image-samba {
 
 }
 
-.imagem-oito {
+.image-assossiação {
 
 }
 
-.imagem-nove {
+.image-hashi {
 
 }
 
-.texto-icone {
+.text-assossiação {
 	font-family: Roboto;
-	font-size: 2.9em;
+	font-size: 1em;
 	width: 34vw;
 }
 
-.texto-icone-dois {
+.text-hashi {
 	font-family: Roboto;
-	font-size: 2.9em;
+	font-size: 1em;
 	width: 34vw;
 }
 
-.caixa-cinco {
+.box-contact {
 	background-color: #00C733;
 	width: 100vw;
     height: 80vh;
@@ -232,61 +232,61 @@
 	justify-content: space-around;
 }
 
-.conteiner-foto-tres {
+.conteiner-photography {
 	width: 94vw;
 	height: 26vh;
 	background-color: #FFFFFF;
-	border-radius: 6em;
-	box-shadow: 0em 0.3em 0.6em #A9A9A9;	
+	border-radius: 2em;
+	box-shadow: 0em 0.2em 0.5em #A9A9A9;	
 }
 
-.foto-contato {
+.photography {
 
 }
 
-.titulo-quatro {
+.title-contact {
 	color: #FFFF00;
 	font-family: Roboto;
-	font-size: 5em;
+	font-size: 2em;
 	width: 80vw;
 	height: 6vh;
 	display: flex;
 	align-items: center;
 }
 
-.texto-tres {
+.text-phones {
 	width: 80vw;
 	height: 8vh;
-	font-size: 3em;
+	font-size: 1.3em;
 	font-family: Roboto;
 	color: #FFFFFF;
 }
 
-.texto-quatro {
+.text-email {
 	width: 80vw;
 	height: 8vh;
-	font-size: 3em;
+	font-size: 1em;
 	font-family: Roboto;
 	color: #FFFFFF;
 }
 
-.texto-cinco {
+.text-address {
 	width: 80vw;
 	height: 8vh;
-	font-size: 3em;
+	font-size: 1em;
 	font-family: Roboto;
 	color: #FFFFFF;
 }
 
-.texto-seis {
+.text-avenue {
 	width: 80vw;
 	height: 8vh;
-	font-size: 3em;
+	font-size: 1em;
 	font-family: Roboto;
 	color: #FFFFFF;
 }
 
-.caixa-final {
+.conteiner-final {
 	width: 100vw;
     height: 9vh;
     display: flex;
@@ -294,9 +294,9 @@
     justify-content: center;
 }
 
-.texto-final {
+.final-text {
 	font-family: Roboto;
-	font-size: 2.6em;
+	font-size: 1em;
 	width: 80vw;
 }
 
