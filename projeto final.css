@@ -9,11 +9,13 @@
 }
 
 .conteiner-foto {
-
+	width: 40vw;
+	height: 26vh;
 }
 
 .logo-principal {
-
+	width: 40vw;
+	height: 24vh;
 }
 
 .conteiner-navegação {
