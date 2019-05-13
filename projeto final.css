@@ -9,13 +9,13 @@
 }
 
 .conteiner-foto {
-	width: 40vw;
-	height: 26vh;
+	width: 54vw;
+	height: 8vh;
 }
 
 .logo-principal {
-	width: 40vw;
-	height: 24vh;
+	width: 50vw;
+	height: 20vh;
 }
 
 .conteiner-navegação {
@@ -41,10 +41,11 @@
 
 .box-inicio {
 	width: 100vw;
-	height:	116vh;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .texto-apresentação {
@@ -56,15 +57,21 @@
 }
 
 .foto-apresentação {
-
+	width: 94vw;
+	height: 26vh;
+	border-radius: 2em;
 }
 
 .foto-meio {
-
+	width: 94vw;
+	height: 26vh;
+	border-radius: 2em;
 }
 
 .foto-final {
-
+	width: 94vw;
+	height: 26vh;
+	border-radius: 2em;
 }
 
 .conteiner-icones {
