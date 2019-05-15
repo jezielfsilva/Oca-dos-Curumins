@@ -1,0 +1,9 @@
+@font-face {
+	font-family: KorolevBold;
+	src: url(./assets/fonts/KorolevBold.woff);
+}
+
+@font-face {
+	font-family: KorolevMedium;
+	src: url(./assets/fonts/KorolevMedium.woff);
+}

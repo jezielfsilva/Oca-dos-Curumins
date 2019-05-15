@@ -26,7 +26,7 @@
 
 .lista-menu {
 	list-style: none;
-	font-family: Roboto;
+	font-family: KorolevBold;
 	color: #006C1C;
 	font-size: 1.6em;
 	width: 45vw;
@@ -54,8 +54,8 @@
 .texto-apresentação {
 	width: 80vw;
 	height: 18vh;
-	font-size: 0.9em;
-	font-family: Roboto;
+	font-size: 1em;
+	font-family: KorolevBold;
 	color: #000000;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .title-important {
-	font-family: Roboto;
+	font-family: KorolevBold;
 	color: #000000;
 	font-size: 2em;
 	width: 80vw;
@@ -98,7 +98,7 @@
 .menu-social {
 	list-style: none;
     font-size: 1em;
-    font-family: Roboto;
+    font-family: KorolevBold;
     color: #000000;
     width: 80vw;
     height: 80vh;
@@ -151,7 +151,7 @@
 
 .title-inpact {
 	color: #FFFF00;
-	font-family: Roboto;
+	font-family: KorolevBold;
 	font-size: 2em;
 	width: 80vw;
 	height: 6vh;
@@ -160,10 +160,10 @@
 }
 
 .paragrafo-depoimento {
-	width: 80vw;
+	width: 75vw;
 	height: 18vh;
 	font-size: 1em;
-	font-family: Roboto;
+	font-family: KorolevMedium;
 	color: #FFFFFF;
 }
 
@@ -195,7 +195,7 @@
 
 .title-friends {
 	color: #000000;
-	font-family: Roboto;
+	font-family: KorolevBold;
 	font-size: 2em;
 	width: 80vw;
 	height: 6vh;
@@ -238,13 +238,13 @@
 }
 
 .text-assossiação {
-	font-family: Roboto;
+	font-family: KorolevBold;
 	font-size: 1em;
 	width: 34vw;
 }
 
 .text-hashi {
-	font-family: Roboto;
+	font-family: KorolevBold;
 	font-size: 1em;
 	width: 34vw;
 }
@@ -278,7 +278,7 @@
 
 .title-contact {
 	color: #FFFF00;
-	font-family: Roboto;
+	font-family: KorolevBold;
 	font-size: 2em;
 	width: 80vw;
 	height: 6vh;
@@ -289,8 +289,8 @@
 .text-phones {
 	width: 80vw;
 	height: 8vh;
-	font-size: 1.3em;
-	font-family: Roboto;
+	font-size: 1.6em;
+	font-family: KorolevBold;
 	color: #FFFFFF;
 }
 
@@ -298,7 +298,7 @@
 	width: 80vw;
 	height: 8vh;
 	font-size: 1em;
-	font-family: Roboto;
+	font-family: KorolevMedium;
 	color: #FFFFFF;
 }
 
@@ -306,7 +306,7 @@
 	width: 80vw;
 	height: 8vh;
 	font-size: 1em;
-	font-family: Roboto;
+	font-family: KorolevMedium;
 	color: #FFFFFF;
 }
 
@@ -314,7 +314,7 @@
 	width: 80vw;
 	height: 8vh;
 	font-size: 1em;
-	font-family: Roboto;
+	font-family: KorolevMedium;
 	color: #FFFFFF;
 }
 
@@ -327,7 +327,7 @@
 }
 
 .final-text {
-	font-family: Roboto;
+	font-family: KorolevMedium;
 	font-size: 1em;
 	width: 42vw;
 	height: 2vh;
