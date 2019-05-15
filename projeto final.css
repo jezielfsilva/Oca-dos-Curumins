@@ -16,7 +16,7 @@
 
 .logo-principal {
 	width: 50vw;
-	height: 17vh;
+	height: 17vh
 }
 
 .conteiner-navegação {
@@ -264,11 +264,16 @@
 	height: 26vh;
 	background-color: #FFFFFF;
 	border-radius: 2em;
-	box-shadow: 0em 0.2em 0.5em #A9A9A9;	
+	box-shadow: 0em 0.2em 0.5em #A9A9A9;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
 }
 
 .photography {
-
+	width: 87vw;
+	height: 23.6vh;
+	border-radius: 1.6em;
 }
 
 .title-contact {
@@ -324,9 +329,23 @@
 .final-text {
 	font-family: Roboto;
 	font-size: 1em;
-	width: 80vw;
+	width: 42vw;
+	height: 2vh;
+}
+
+.logo-final {
+	width: 64vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
 }
 
 .logo-vnw {
+	width: 20vw;
+    height: 5vh;
+}
 
+
+@media (min-width: 321px) {
+	
 }
