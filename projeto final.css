@@ -48,7 +48,9 @@
     flex-direction: column;
     justify-content: space-around;
     background-image: url(./assets/fundo.png);
-    background-position: center;
+   background-size: 300vw 60vh;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .texto-apresentação {
@@ -109,44 +111,47 @@
 }
 
 .item-alfabetização {
-
+	width: 30vw;
 }
 
 .item-reforço {
-
+	width: 25vw;
 }
 
 .item-aulas {
-
+	width: 32vw;
 }
 
 .item-palestras {
-
+	width: 32vw;
 }
 
 .item-artesanato {
-
+	width: 30vw;
 }
 
 .item-teatro {
-
+	width: 30vw;
 }
 
 .item-dança {
-
+	width: 28vw;
 }
 
 .item-capoeira {
-
+	width: 28vw;
 }
 
 .box-impacto {
-	background-color: #006C1C;
 	width: 100vw;
 	height:	50vh;
+	background-image: url(./assets/fundo_impacto.jpg);
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	background-size: 100vw 44vh;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .title-inpact {
@@ -250,7 +255,7 @@
 }
 
 .box-contact {
-	background-color: #00C733;
+	background-image: url(./assets/fundo_contato.jpg);
 	width: 100vw;
     height: 80vh;
     display: flex;
