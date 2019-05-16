@@ -5,8 +5,10 @@
 }
 
 .conteiner-menu {
+	width: 100vw;
 	height: 1vh;
 	background-image: url(./assets/topo.svg);
+	background-size: 70vw 1vh;
 }
 
 .conteiner-foto {
@@ -366,7 +368,132 @@
     height: 5vh;
 }
 
+@media (min-width: 324px) {
+	.conteiner-menu {
+		background-size: 69vw 1vh;
+	}
+}
 
-@media (min-width: 321px) {
-	
+@media (min-width: 330px) {
+	.texto-apresentação {
+		width: 79vw;
+	}
+
+	.conteiner-menu {
+		background-size: 68vw 1vh;
+	}
+}
+
+@media (min-width: 332px) {
+	.conteiner-menu {
+		background-size: 67vw 1vh;
+	}
+}
+
+@media (min-width: 334px) {
+	.texto-apresentação {
+		font-size: 1.01em;
+	}
+}
+
+@media (min-width: 336px) {
+	.texto-apresentação {
+		font-size: 1.02em;
+	}
+}
+
+@media (min-width: 338px) {
+	.conteiner-menu {
+		background-size: 67vw 1vh;
+	}
+}
+
+@media (min-width: 340px) {
+	.texto-apresentação {
+		font-size: 1.03em;
+	}
+}
+
+@media (min-width: 344px) {
+	.texto-apresentação {
+		font-size: 1.04em;
+	}
+}
+
+@media (min-width: 346px) {
+	.conteiner-menu {
+ 	   background-size: 64vw 1vh;
+}
+
+	.texto-apresentação {
+		font-size: 1.05em;
+	}
+
+	.box-inicio {
+   		 height: 148vh;
+}
+
+	.conteiner-navegação {
+    	height: 48vh;
+	}
+
+	.lista-menu {
+		height: 28.3vh;
+	}
+
+	.box-menu {
+		height: 40vh;
+	}
+}
+
+@media (min-width: 348px) {
+	.conteiner-menu {
+		background-size: 64vw 1vh;
+	}	
+}
+
+@media (min-width: 350px) {
+	.texto-apresentação {
+   	 font-size: 1.06em;
+	}
+}
+
+@media (min-width: 352px) {
+	.texto-apresentação {
+		font-size: 1.08em;
+	}
+}
+
+@media (min-width: 354px) {
+	.conteiner-menu {
+		background-size: 63vw 1vh;
+	}
+}
+
+@media (min-width: 358px) {
+	.conteiner-menu {
+		background-size: 62vw 1vh;
+	}
+}
+
+@media (min-width: 360px) {
+	.texto-apresentação {
+		font-size: 1.09em;
+	}
+}
+
+@media (min-width: 364px) {
+	.conteiner-menu {
+		background-size: 61vw 1vh;
+	}
+
+	.texto-apresentação {
+		font-size: 1.1em;
+	}
+}
+
+@media (min-width: 366px) {
+	.texto-apresentação {
+		font-size: 1.12em;
+	}
 }
