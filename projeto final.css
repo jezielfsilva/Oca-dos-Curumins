@@ -11,7 +11,7 @@
 
 .conteiner-foto {
 	width: 54vw;
-	height: 8vh;
+	height: 17vh;
 }
 
 .logo-principal {
@@ -20,8 +20,24 @@
 }
 
 .conteiner-navegação {
-	width: 88vw;
-	height: 14vh;
+	width: 65vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-menu {
+	width: 48vw;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-menu {
+	width: 12vw;
+    height: 3vh;
 }
 
 .lista-menu {
@@ -29,8 +45,8 @@
 	font-family: KorolevBold;
 	color: #006C1C;
 	font-size: 1.6em;
-	width: 45vw;
-	height: 23vh;
+	width: 40vw;
+	height: 24.3vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
