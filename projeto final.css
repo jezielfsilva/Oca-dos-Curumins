@@ -13,11 +13,13 @@
 .conteiner-foto {
 	width: 54vw;
 	height: 17vh;
+	display: flex;
+	justify-content: center;
 }
 
 .logo-principal {
-	width: 50vw;
-	height: 17vh
+	width: 44vw;
+	height: 13vh
 }
 
 .conteiner-navegação {
@@ -54,7 +56,7 @@
 }
 
 .item-menu {
-
+    color: transparent;
 }
 
 .box-inicio {
@@ -64,7 +66,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    background-image: url(./assets/fundo.png);
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1)), url(./assets/fundo.png);
    background-size: 300vw 60vh;
     background-repeat: no-repeat;
     background-position: top;
@@ -351,8 +353,10 @@
 .final-text {
 	font-family: KorolevMedium;
 	font-size: 1em;
-	width: 42vw;
-	height: 2vh;
+	width: 48vw;
+    height: 3vh;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo-final {
@@ -363,9 +367,11 @@
 }
 
 .logo-vnw {
-	width: 20vw;
+	width: 22vw;
     height: 5vh;
 }
+
+
 
 @media (min-width: 375px) {
 	.conteiner-navegação {
@@ -385,14 +391,140 @@
 	.texto-apresentação {
 		font-size: 1.15em;
 	}
+
+	.paragrafo-depoimento {
+		width: 80vw;
+		font-size: 1.22em;
+	}
+
+	.conteiner-image {
+		width: 93vw;
+	}
+
+	.conteiner-photography {
+		width: 93vw;
+	}
+
+	.text-phones {
+		font-size: 1.9em;
+	}
+
+	.text-email, .text-address {
+		font-size: 1.2em;
+	}
+
+	.text-avenue {
+		font-size: 1.19em;
+	}
+
+	.final-text {
+		font-size: 1.1em;
+	}
 }
 
+
+
 @media (min-width: 425px) {
+	.conteiner-navegação {
+		width: 50vw;
+		height: 46vh;
+	}
+
+	.box-menu {
+		width: 38vw;
+		height: 38vh;
+	}
+
 	.box-inicio {
 		height: 150vh;
 	}
 
+	.foto-apresentação, .foto-meio, .foto-final {
+		height: 30vh;
+	}
+
+	.logo-principal {
+		height: 15vh;
+	}
+
 	.texto-apresentação {
 		font-size: 1.3em;
+		height: 25vh;
+	}
+
+	.item-alfabetização, .item-artesanato, .item-teatro {
+		width: 28vw;
+	}
+
+	.item-reforço {
+    	width: 24.4vw;
+	}
+
+	.item-aulas, .item-palestras {
+ 	   width: 30vw;
+	}
+
+	.item-dança, .item-capoeira {
+    	width: 26vw;
+	}
+
+	.box-impacto {
+		height: 60vh;
+	}
+
+	.paragrafo-depoimento {
+		font-size: 1.39em;
+		height: 26vh;
+	}
+
+	.conteiner-image, .conteiner-photography {
+		height: 34vh;
+	}
+
+	.foto-impacto {
+		width: 87.9vw;
+    	height: 28.5vh;
+	}
+
+	.image-sesc {
+    	width: 16vh;
+	}
+
+	.image-quintal {
+    	width: 13vh;
+	}
+
+	.image-radio {
+    	width: 14vh;
+	}
+
+	.image-samba {
+    	width: 18vh;
+	}
+
+	.image-assossiação, .image-hashi {
+    	width: 15vh;
+	}
+
+	.photography {
+		width: 87.1vw;
+    	height: 31.6vh;
+	}
+
+
+	.text-phones {
+    	font-size: 2.1em;
+	}
+
+	.text-email, .text-address {
+    	font-size: 1.3em;
+	}
+
+	.text-avenue {
+    	font-size: 1.35em;
+	}
+
+	.final-text {
+    	font-size: 1.2em;
 	}
 }
