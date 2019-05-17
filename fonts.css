@@ -7,3 +7,8 @@
 	font-family: KorolevMedium;
 	src: url(./assets/fonts/KorolevMedium.woff);
 }
+
+@font-face {
+	font-family: KorolevHeavy;
+	src: url(./assets/fonts/KorolevHeavy.woff);
+}

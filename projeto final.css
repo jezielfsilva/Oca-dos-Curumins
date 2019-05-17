@@ -6,7 +6,7 @@
 
 .conteiner-menu {
 	width: 100vw;
-	height: 1vh;
+	height: 1.8vh;
 	background-image: url(./assets/topo.svg);
 }
 
@@ -173,7 +173,7 @@
     background-position: top;
 }
 
-.title-inpact {
+.title-impact {
 	color: #FFFF00;
 	font-family: KorolevBold;
 	font-size: 2em;
@@ -374,6 +374,10 @@
 
 
 @media (min-width: 375px) {
+	.conteiner-menu {
+		height: 1.3vh;
+	}
+
 	.conteiner-navegação {
 		width: 46vw;
 		height: 40vh;
@@ -425,6 +429,10 @@
 
 
 @media (min-width: 425px) {
+	.conteiner-menu {
+		height: 1.47vh;
+	}
+
 	.conteiner-navegação {
 		width: 50vw;
 		height: 46vh;
@@ -526,5 +534,92 @@
 
 	.final-text {
     	font-size: 1.2em;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.conteiner-menu {
+		height: 3.8vh;
+	}
+
+	.logo-menu {
+    	width: 6vw;
+    	height: 6vh;
+	}
+
+	.conteiner-foto {
+		height: 22vh;
+	}
+
+	.logo-principal {
+    	width: 20vw;
+    	height: 20vh;
+	}
+
+	.texto-apresentação {
+		width: 68vw;
+		height: 19vh;
+	}
+
+	.foto-apresentação, .foto-meio, .foto-final {
+		width: 34vw;
+		height: 34vh;
+	}
+
+	.box-inicio {
+		height: 126vh;
+		flex-direction: row;
+    	flex-wrap: wrap;
+    	background-size: 100vw 60vh;
+	}
+
+	.conteiner-navegação {
+		width: 35vw;
+		height: 56vh;
+	}
+
+	.lista-menu {
+		height: 32.3vh;
+	}
+
+	.box-menu {
+		width: 26vw;
+		height: 46vh;
+	}
+
+	.title-important {
+		font-family: KorolevHeavy;
+		font-size: 2.1em;
+	}
+
+	.item-alfabetização, .item-reforço, .item-aulas, .item-palestras, .item-artesanato, .item-teatro, .item-dança, .item-capoeira {
+		width: 16.5vw;
+	}
+
+	.box-impacto {
+		flex-wrap: wrap;
+	}
+
+	.title-impact {
+		width: 33vw;
+	}
+
+	.paragrafo-depoimento {
+		width: 33vw;
+		height: 34vh;
+		font-size: 1em;
+		display: flex;
+    	align-items: center;
+	}
+
+	.conteiner-image {
+		width: 35vw;
+		height: 35vh;
+	}
+
+	.foto-impacto {
+		width: 32.9vw;
+    	height: 28.5vh;
 	}
 }
