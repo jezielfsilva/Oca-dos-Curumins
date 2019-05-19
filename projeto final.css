@@ -599,27 +599,84 @@
 
 	.box-impacto {
 		flex-wrap: wrap;
+		justify-content: flex-end;
+		height: 52vh;
 	}
 
 	.title-impact {
 		width: 33vw;
+		height: 12vh;
+		font-family: KorolevHeavy;
+		font-size: 2.3em;
 	}
 
 	.paragrafo-depoimento {
 		width: 33vw;
-		height: 34vh;
+		height: 40vh;
 		font-size: 1em;
 		display: flex;
-    	align-items: center;
+    	align-items: flex-start;
 	}
 
 	.conteiner-image {
-		width: 35vw;
-		height: 35vh;
+		width: 36vw;
+    	height: 31vh;
 	}
 
 	.foto-impacto {
 		width: 32.9vw;
     	height: 28.5vh;
+	}
+
+	.box-parceria {
+		height: 70vh;
+	}
+
+	.title-friends {
+		font-family: KorolevHeavy;
+		font-size: 2.4em;
+	}
+
+	.menu-parceria {
+		width: 76vw;
+    	height: 56vh;
+	}
+
+	.image-sesc {
+    	width: 20vh;
+	}
+
+	.image-quintal {
+    	width: 15vh;
+	}
+
+	.image-radio {
+    	width: 16vh;
+	}
+
+	.image-samba {
+    	width: 22vh;
+	}
+
+	.image-assossiação {
+		width: 12vh;
+	}
+
+	.text-assossiação {
+		width: 25vw;
+	}
+
+	.icone-assossiação {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.image-hashi {
+    	width: 12vh;
+	}
+
+	.icone-hashi {
+		width: 15vw;
 	}
 }
