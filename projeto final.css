@@ -679,4 +679,76 @@
 	.icone-hashi {
 		width: 15vw;
 	}
+
+	.conteiner-photography {
+		height: 36vh;
+    	width: 44vw;
+	}
+
+	.photography {
+		width: 41vw;
+    	height: 33vh;
+	}
+
+	.title-contact {
+		font-family: KorolevHeavy;
+		font-size: 2.3em;
+	}
+
+	.text-phones {
+    	font-size: 2em;
+	}
+
+	.text-email, .text-address, .text-avenue {
+    	font-size: 1.2em;
+	}
+
+	.final-text {
+    	width: 56vw;
+	}
+
+	.logo-vnw {
+    	width: 14vw;
+    	height: 6vh;
+	}
+}
+
+
+@media (min-width: 1024px) {
+	.conteiner-menu {
+    	height: 3.3vh;
+	}
+
+	.conteiner-navegação {
+		height: 75vh;
+	}
+
+	.logo-menu {
+		width: 0;
+	}
+
+	.item-menu {
+		color: #006C1C;
+	}
+
+	.box-inicio {
+		height: 75vh;
+		background-image: url(./assets/fundo.png);
+	}
+
+	.conteiner-foto {
+    	width: 16vw;
+    	height: 28vh;
+	}
+
+	.texto-apresentação {
+    	width: 44vw;
+    	height: 0vh;
+    	font-size: 1.2em;
+	}
+
+	.foto-apresentação, .foto-meio, .foto-final {
+    	width: 26vw;
+    	height: 25vh;
+	}
 }
