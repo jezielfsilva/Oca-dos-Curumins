@@ -738,7 +738,15 @@
 
 	.conteiner-foto {
     	width: 16vw;
-    	height: 28vh;
+    	height: 72vh;
+	}
+
+	.box-conteudo {
+		width: 80vw;
+    	height: 60vh;
+    	display: flex;
+    	flex-direction: row;
+    	flex-wrap: wrap;
 	}
 
 	.texto-apresentação {
