@@ -549,6 +549,7 @@
 	}
 
 	.conteiner-foto {
+		width: 63vw;
 		height: 22vh;
 	}
 
@@ -558,8 +559,16 @@
 	}
 
 	.texto-apresentação {
-		width: 68vw;
+		width: 63vw;
 		height: 19vh;
+	}
+
+	.box-images {
+		width: 100vw;
+    	height: 82vh;
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-around;
 	}
 
 	.foto-apresentação, .foto-meio, .foto-final {
@@ -734,29 +743,47 @@
 	.box-inicio {
 		height: 75vh;
 		background-image: url(./assets/fundo.png);
-	}
-
-	.conteiner-foto {
-    	width: 16vw;
-    	height: 72vh;
+		display: flex;
+    	justify-content: flex-end;
 	}
 
 	.box-conteudo {
-		width: 80vw;
-    	height: 60vh;
+		width: 100vw;
+    	height: 47vh;
     	display: flex;
-    	flex-direction: row;
-    	flex-wrap: wrap;
+    	justify-content: flex-start;
+    	align-items: flex-end;
+	}
+
+	.conteiner-foto {
+    	width: 23vw;
+    	height: 44vh;
 	}
 
 	.texto-apresentação {
-    	width: 44vw;
-    	height: 0vh;
-    	font-size: 1.2em;
+    	width: 47vw;
+    	height: 19vh;
+    	font-size: 1.3em;
+	}
+
+	.box-images {
+		width: 78vw;
+    	height: 25vh;
+    	display: flex;
+    	justify-content: space-around;
 	}
 
 	.foto-apresentação, .foto-meio, .foto-final {
-    	width: 26vw;
+    	width: 23vw;
     	height: 25vh;
+	}
+
+	.title-important {
+		font-size: 2.5em;
+		width: 74vw;
+	}
+
+	.conteiner-icones {
+		align-items: flex-end;
 	}
 }
