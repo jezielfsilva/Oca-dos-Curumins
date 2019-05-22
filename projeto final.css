@@ -781,9 +781,101 @@
 	.title-important {
 		font-size: 2.5em;
 		width: 74vw;
+		height: 26vh;
 	}
 
 	.conteiner-icones {
 		align-items: flex-end;
+	}
+
+	.menu-social {
+		width: 75vw;
+    	height: 61vh;
+    	font-size: 1.28em;
+	}
+
+	.item-alfabetização, .item-reforço, .item-aulas, .item-palestras, .item-artesanato, .item-teatro, .item-dança, .item-capoeira {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.icone {
+		width: 9vw;
+	}
+
+	.box-impacto {
+		background-size: 77vw 44vh;
+    	background-position: top right;
+    	align-items: flex-end;
+	}
+
+	.box-paragrafo {
+		width: 10vw;
+	}
+
+	.title-impact {
+		width: 22vw;
+    	height: 12vh;
+		font-size: 2.9em;
+		align-items: flex-start;
+	}
+
+	.paragrafo-depoimento {
+		width: 34vw;
+    	height: 32vh;
+    	font-size: 1.3em;
+    	align-items: flex-start;
+	}
+
+	.conteiner-image {
+		width: 34vw;
+	}
+
+	.foto-impacto {
+		width: 31.9vw;
+	}
+
+	.box-parceria {
+		align-items: flex-end;
+	}
+
+	.title-friends {
+		font-size: 2.7em;
+		width: 72vw;
+	}
+
+	.menu-parceria {
+		width: 74vw;
+	}
+
+	.icone-sesc, .icone-quintal, .icone-radio, .icone-samba, .icone-assossiação, .icone-hashi {
+		width: 19vw;
+	}
+
+	.image-sesc {
+		width: 16vh;
+	}
+
+	.image-quintal {
+		width: 13vh;
+	}
+
+	.image-radio {
+		width: 14vh;
+	}
+
+	.image-samba {
+		width: 20vh;
+	}
+
+	.image-assossiação {
+		width: 10vh;
+	}
+
+	.text-assossiação {
+		width: 14vw;
+		font-size: 0.8em;
 	}
 }
