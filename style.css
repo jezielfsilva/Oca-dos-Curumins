@@ -32,14 +32,14 @@
 
 .box-menu {
 	width: 48vw;
-    height: 33vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .logo-menu {
-	width: 12vw;
+	width: 9vw;
     height: 3vh;
 }
 
@@ -61,7 +61,7 @@
 
 .box-inicio {
 	width: 100vw;
-    height: 130vh;
+    height: 150vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -70,6 +70,21 @@
    background-size: 300vw 60vh;
     background-repeat: no-repeat;
     background-position: top;
+}
+
+.box-conteudo {
+	height: 39vh;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-images {
+	height: 105vh;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .texto-apresentação {
@@ -82,25 +97,25 @@
 
 .foto-apresentação {
 	width: 94vw;
-	height: 26vh;
+	height: 33vh;
 	border-radius: 2em;
 }
 
 .foto-meio {
 	width: 94vw;
-	height: 26vh;
+	height: 33vh;
 	border-radius: 2em;
 }
 
 .foto-final {
 	width: 94vw;
-	height: 26vh;
+	height: 33vh;
 	border-radius: 2em;
 }
 
 .conteiner-icones {
 	width: 100vw;
-	height:	90vh;
+	height:	106vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -163,12 +178,12 @@
 
 .box-impacto {
 	width: 100vw;
-	height:	50vh;
+	height:	60vh;
 	background-image: url(./assets/fundo_impacto.jpg);
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	background-size: 100vw 44vh;
+	background-size: 100vw 50vh;
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -193,7 +208,7 @@
 
 .conteiner-image {
 	width: 94vw;
-	height: 26vh;
+	height: 35vh;
 	background-color: #FFFFFF;
 	border-radius: 2em;
 	box-shadow: 0em 0.2em 0.5em #A9A9A9;
@@ -204,7 +219,7 @@
 
 .foto-impacto {
 	width: 87vw;
-	height: 23.6vh;
+	height: 31.6vh;
 	border-radius: 1.6em;
 }
 
@@ -238,27 +253,27 @@
 }
 
 .image-sesc {
-	width: 12vh;
+	width: 32vw;
 }
 
 .image-quintal {
-	width: 12vh;
+	width: 30vw;
 }
 
 .image-radio {
-	width: 12vh;
+	width: 29vw;
 }
 
 .image-samba {
-	width: 12vh;
+	width: 37vw;
 }
 
 .image-assossiação {
-	width: 12vh;
+	width: 19vw;
 }
 
 .image-hashi {
-	width: 12vh;
+	width: 23vw;
 }
 
 .text-assossiação {
@@ -276,7 +291,7 @@
 .box-contact {
 	background-image: url(./assets/fundo_contato.jpg);
 	width: 100vw;
-    height: 80vh;
+    height: 90vh;
     display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -285,7 +300,7 @@
 
 .conteiner-photography {
 	width: 94vw;
-	height: 26vh;
+	height: 37vh;
 	background-color: #FFFFFF;
 	border-radius: 2em;
 	box-shadow: 0em 0.2em 0.5em #A9A9A9;
@@ -296,8 +311,12 @@
 
 .photography {
 	width: 87vw;
-	height: 23.6vh;
+	height: 33.6vh;
 	border-radius: 1.6em;
+}
+
+.conteiner-contato {
+	height: 46vh;
 }
 
 .title-contact {
@@ -311,16 +330,16 @@
 }
 
 .text-phones {
-	width: 80vw;
+	width: 62vw;
 	height: 8vh;
-	font-size: 1.6em;
+	font-size: 1.2em;
 	font-family: KorolevBold;
 	color: #FFFFFF;
 }
 
 .text-email {
 	width: 80vw;
-	height: 8vh;
+	height: 14vh;
 	font-size: 1em;
 	font-family: KorolevMedium;
 	color: #FFFFFF;
@@ -389,7 +408,17 @@
 	}
 
 	.box-inicio {
-		height: 140vh;
+		height: 163vh;
+	}
+
+	.conteiner-foto {
+		width: 77vw;
+    	height: 20vh;
+	}
+
+	.logo-principal {
+		width: 36vw;
+    	height: 15vh;
 	}
 
 	.texto-apresentação {
@@ -495,23 +524,23 @@
 	}
 
 	.image-sesc {
-    	width: 16vh;
+    	width: 16vw;
 	}
 
 	.image-quintal {
-    	width: 13vh;
+    	width: 13vw;
 	}
 
 	.image-radio {
-    	width: 14vh;
+    	width: 14vw;
 	}
 
 	.image-samba {
-    	width: 18vh;
+    	width: 18vw;
 	}
 
 	.image-assossiação, .image-hashi {
-    	width: 15vh;
+    	width: 15vw;
 	}
 
 	.photography {
@@ -656,19 +685,19 @@
 	}
 
 	.image-quintal {
-    	width: 15vh;
+    	width: 15vw;
 	}
 
 	.image-radio {
-    	width: 16vh;
+    	width: 16vw;
 	}
 
 	.image-samba {
-    	width: 22vh;
+    	width: 22vw;
 	}
 
 	.image-assossiação {
-		width: 12vh;
+		width: 12vw;
 	}
 
 	.text-assossiação {
@@ -682,7 +711,7 @@
 	}
 
 	.image-hashi {
-    	width: 12vh;
+    	width: 12vw;
 	}
 
 	.icone-hashi {
@@ -690,8 +719,8 @@
 	}
 
 	.conteiner-photography {
-		height: 36vh;
     	width: 44vw;
+    	height: 36vh;
 	}
 
 	.photography {
@@ -733,7 +762,7 @@
 	}
 
 	.logo-menu {
-		width: 0;
+		width: 0vw;
 	}
 
 	.item-menu {
@@ -855,23 +884,23 @@
 	}
 
 	.image-sesc {
-		width: 16vh;
+		width: 16vw;
 	}
 
 	.image-quintal {
-		width: 13vh;
+		width: 13vw;
 	}
 
 	.image-radio {
-		width: 14vh;
+		width: 14vw;
 	}
 
 	.image-samba {
-		width: 20vh;
+		width: 20vw;
 	}
 
 	.image-assossiação {
-		width: 10vh;
+		width: 10vw;
 	}
 
 	.text-assossiação {
@@ -885,10 +914,11 @@
 	}
 
 	.box-contact {
-		flex-direction: row-reverse;
 		height: 50vh;
 		background-size: 77vw 44vh;
 		background-position: top right;
+		flex-direction: row-reverse;
+		justify-content: flex-start;
 	}
 
 	.conteiner-photography {
@@ -901,7 +931,47 @@
 	}
 
 	.conteiner-contato {
-		width: 30vw;
-		height: 30vh;
+		width: 35vw;
+    	height: 35vh;
+	}
+
+	.title-contact {
+		font-size: 2.6em;
+		width: 44vw;
+    	height: 8vh;
+	}
+
+	.text-phones {
+		font-family:KorolevMedium;
+		font-size: 1.6em;
+		width: 44vw;
+	}
+
+	.text-email {
+		width: 44vw;
+    	height: 12vh;
+	}
+
+	.text-address {
+		width: 31vw;
+    	height: 5vh;
+	}
+
+	.text-avenue {
+		width: 44vw;
+    	height: 4vh;
+	}
+
+	.final-text {
+    	font-size: 1.1em;
+	}
+
+	.logo-final {
+		width: 50vw;
+	}
+
+	.logo-vnw {
+		width: 9vw;
+    	height: 6vh;
 	}
 }
