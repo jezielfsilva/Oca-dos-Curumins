@@ -878,4 +878,30 @@
 		width: 14vw;
 		font-size: 0.8em;
 	}
+
+	.icone-assossiação {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.box-contact {
+		flex-direction: row-reverse;
+		height: 50vh;
+		background-size: 77vw 44vh;
+		background-position: top right;
+	}
+
+	.conteiner-photography {
+		width: 38vw;
+	}
+
+	.photography {
+		width: 35vw;
+    	height: 33vh;
+	}
+
+	.conteiner-contato {
+		width: 30vw;
+		height: 30vh;
+	}
 }
