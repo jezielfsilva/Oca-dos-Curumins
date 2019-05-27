@@ -73,6 +73,7 @@
 }
 
 .box-conteudo {
+	width: 100vw;
 	height: 39vh;
 	display: flex;
     flex-direction: column;
@@ -80,6 +81,7 @@
 }
 
 .box-images {
+	width: 100vw;
 	height: 105vh;
 	display: flex;
 	flex-direction: column;
@@ -115,7 +117,7 @@
 
 .conteiner-icones {
 	width: 100vw;
-	height:	106vh;
+	height:	126vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -146,18 +148,30 @@
 
 .item-alfabetização, .item-artesanato, .item-teatro {
 	width: 30vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .item-reforço {
 	width: 25vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .item-aulas, .item-palestras {
 	width: 32vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .item-dança, .item-capoeira {
 	width: 28vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .box-impacto {
@@ -273,7 +287,6 @@
     display: flex;
 	align-items: center;
 	flex-direction: column;
-	justify-content: space-around;
 }
 
 .conteiner-photography {
@@ -294,7 +307,11 @@
 }
 
 .conteiner-contato {
+	width: 88vw;
 	height: 46vh;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .title-contact {
@@ -302,14 +319,14 @@
 	font-family: KorolevBold;
 	font-size: 2em;
 	width: 80vw;
-	height: 6vh;
+	height: 10vh;
 	display: flex;
 	align-items: center;
 }
 
 .text-phones {
 	width: 62vw;
-	height: 8vh;
+	height: 14vh;
 	font-size: 1.2em;
 	font-family: KorolevBold;
 	color: #FFFFFF;
@@ -364,12 +381,18 @@
 
 @media (min-width: 375px) {
 	.conteiner-menu {
-		height: 1.3vh;
+		width: 100vw;
+		height: 1.8vh;
 	}
 
 	.conteiner-navegação {
 		width: 46vw;
 		height: 40vh;
+	}
+
+	.logo-menu {
+		width: 10vw;
+    	height: 5vh;
 	}
 
 	.box-menu {
@@ -378,17 +401,64 @@
 	}
 
 	.box-inicio {
-		height: 163vh;
+		width: 100vw;
+		height: 210vh;
+		background-size: 300vw 90vh;
 	}
 
-	.conteiner-foto {
-		width: 77vw;
-    	height: 20vh;
+	.box-conteudo {
+		width: 83vw;
+    	height: 46vh;
 	}
 
 	.logo-principal {
 		width: 36vw;
     	height: 15vh;
+	}
+
+	.box-images {
+		width: 100vw;
+    	height: 134vh;
+	}
+
+	.foto-apresentação, .foto-meio, .foto-final {
+		width: 94vw;
+    	height: 42vh;
+	}
+
+	.conteiner-icones {
+		width: 100vw;
+    	height: 126vh;
+	}
+
+	.menu-social {
+		width: 80vw;
+    	height: 118vh;
+	}
+
+	.item-alfabetização, .item-reforço, .item-aulas, .item-palestras, .item-artesanato, .item-teatro, .item-dança, .item-capoeira {
+		width: 27vw;
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
+
+	.box-impacto {
+		width: 100vw;
+    	height: 80vh;
+	}
+
+	.box-paragrafo {
+		width: 63vw;
+		height: 78vh;
+		display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+	}
+
+	.conteiner-foto {
+		width: 77vw;
+    	height: 22vh;
 	}
 
 	.texto-apresentação {
@@ -397,15 +467,60 @@
 
 	.paragrafo-depoimento {
 		width: 80vw;
+    	height: 21vh;
 		font-size: 1.22em;
 	}
 
 	.conteiner-image, .conteiner-photography {
 		width: 93vw;
+		height: 104vh;
+	}
+
+	.foto-impacto {
+		width: 87vw;
+    	height: 41.6vh;
+	}
+
+	.box-parceria {
+		width: 100vw;
+    	height: 94vh;
+	}
+
+	.title-friends {
+		width: 80vw;
+		height: 11vh;
+    	align-items: flex-end;
+	}
+
+	.menu-parceria {
+		width: 80vw;
+    	height: 68vh;
+	}
+
+	.box-contact {
+		width: 100vw;
+    	height: 106vh;
+	}
+
+	.photography {
+		width: 87vw;
+    	height: 40.6vh;
+	}
+
+	.conteiner-contato {
+		width: 83vw;
+    	height: 148vh;
+	}
+
+	.title-contact {
+		width: 80vw;
+    	height: 12vh;
 	}
 
 	.text-phones {
 		font-size: 1.9em;
+		width: 80vw;
+    	height: 15vh;
 	}
 
 	.text-email, .text-address {
