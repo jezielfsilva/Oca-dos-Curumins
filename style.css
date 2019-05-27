@@ -56,7 +56,7 @@
 }
 
 .item-menu {
-    color: transparent;
+    display: none;
 }
 
 .box-inicio {
@@ -144,7 +144,7 @@
     flex-wrap: wrap;
 }
 
-.item-alfabetização {
+.item-alfabetização, .item-artesanato, .item-teatro {
 	width: 30vw;
 }
 
@@ -152,27 +152,11 @@
 	width: 25vw;
 }
 
-.item-aulas {
+.item-aulas, .item-palestras {
 	width: 32vw;
 }
 
-.item-palestras {
-	width: 32vw;
-}
-
-.item-artesanato {
-	width: 30vw;
-}
-
-.item-teatro {
-	width: 30vw;
-}
-
-.item-dança {
-	width: 28vw;
-}
-
-.item-capoeira {
+.item-dança, .item-capoeira {
 	width: 28vw;
 }
 
@@ -276,13 +260,7 @@
 	width: 23vw;
 }
 
-.text-assossiação {
-	font-family: KorolevBold;
-	font-size: 1em;
-	width: 34vw;
-}
-
-.text-hashi {
+.text-assossiação, .text-hashi {
 	font-family: KorolevBold;
 	font-size: 1em;
 	width: 34vw;
@@ -345,15 +323,7 @@
 	color: #FFFFFF;
 }
 
-.text-address {
-	width: 80vw;
-	height: 8vh;
-	font-size: 1em;
-	font-family: KorolevMedium;
-	color: #FFFFFF;
-}
-
-.text-avenue {
+.text-address, .text-avenue {
 	width: 80vw;
 	height: 8vh;
 	font-size: 1em;
@@ -430,11 +400,7 @@
 		font-size: 1.22em;
 	}
 
-	.conteiner-image {
-		width: 93vw;
-	}
-
-	.conteiner-photography {
+	.conteiner-image, .conteiner-photography {
 		width: 93vw;
 	}
 
@@ -766,7 +732,7 @@
 	}
 
 	.item-menu {
-		color: #006C1C;
+		display: block;
 	}
 
 	.box-inicio {
