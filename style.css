@@ -277,7 +277,7 @@
 .text-assossiação, .text-hashi {
 	font-family: KorolevBold;
 	font-size: 1em;
-	width: 34vw;
+	width: 100%;
 }
 
 .box-contact {
@@ -359,22 +359,22 @@
 .final-text {
 	font-family: KorolevMedium;
 	font-size: 1em;
-	width: 48vw;
+	width: 37vw;
     height: 3vh;
     display: flex;
     justify-content: flex-end;
 }
 
 .logo-final {
-	width: 64vw;
+	width: 45vw;
     height: 8vh;
     display: flex;
     align-items: center;
 }
 
 .logo-vnw {
-	width: 22vw;
-    height: 5vh;
+	width: 21vw;
+    height: 7vh;
 }
 
 
@@ -449,7 +449,7 @@
 	}
 
 	.box-paragrafo {
-		width: 63vw;
+		width: 78vw;
 		height: 78vh;
 		display: flex;
     	flex-direction: column;
@@ -540,7 +540,7 @@
 
 @media (min-width: 425px) {
 	.conteiner-menu {
-		height: 1.47vh;
+		height: 1.97vh;
 	}
 
 	.conteiner-navegação {
@@ -554,20 +554,30 @@
 	}
 
 	.box-inicio {
-		height: 150vh;
+		height: 226vh;
 	}
 
-	.foto-apresentação, .foto-meio, .foto-final {
-		height: 30vh;
+	.conteiner-foto {
+		width: 53vw;
+    	height: 21vh;
 	}
 
 	.logo-principal {
+		width: 30vw;
 		height: 15vh;
 	}
 
 	.texto-apresentação {
 		font-size: 1.3em;
 		height: 25vh;
+	}
+
+	.box-images {
+		height: 152vh;
+	}
+
+	.foto-apresentação, .foto-meio, .foto-final {
+		height: 47vh;
 	}
 
 	.item-alfabetização, .item-artesanato, .item-teatro {
@@ -587,7 +597,11 @@
 	}
 
 	.box-impacto {
-		height: 60vh;
+		height: 89vh;
+	}
+
+	.box-paragrafo {
+		height: 42vh;
 	}
 
 	.paragrafo-depoimento {
@@ -596,39 +610,64 @@
 	}
 
 	.conteiner-image, .conteiner-photography {
-		height: 34vh;
+		height: 44vh;
 	}
 
 	.foto-impacto {
 		width: 87.9vw;
-    	height: 28.5vh;
+    	height: 40.5vh;
+	}
+
+	.box-parceria {
+		height: 102vh;
+		justify-content: unset;
+	}
+
+	.title-friends {
+		height: 12vh;
+    	align-items: flex-end;
+	}
+
+	.menu-parceria {
+		height: 89vh;
 	}
 
 	.image-sesc {
-    	width: 16vw;
+    	width: 30vw;
+	}
+
+	.icone-quintal {
+		width: 38vw;
 	}
 
 	.image-quintal {
-    	width: 13vw;
+    	width: 23vw;
 	}
 
 	.image-radio {
-    	width: 14vw;
+    	width: 27vw;
 	}
 
 	.image-samba {
-    	width: 18vw;
+    	width: 37vw;
 	}
 
 	.image-assossiação, .image-hashi {
-    	width: 15vw;
+    	width: 18vw;
+	}
+
+	.box-contact {
+		justify-content: flex-end;
 	}
 
 	.photography {
 		width: 87.1vw;
-    	height: 31.6vh;
+    	height: 39.6vh;
 	}
 
+	.conteiner-contato {
+		height: 57vh;
+	}
 
 	.text-phones {
     	font-size: 2.1em;
@@ -636,10 +675,12 @@
 
 	.text-email, .text-address {
     	font-size: 1.3em;
+    	height: 12vh;
 	}
 
 	.text-avenue {
     	font-size: 1.35em;
+    	height: 6vh;
 	}
 
 	.final-text {
@@ -650,7 +691,7 @@
 
 @media (min-width: 768px) {
 	.conteiner-menu {
-		height: 3.8vh;
+		height: 3.69vh;
 	}
 
 	.logo-menu {
@@ -660,7 +701,7 @@
 
 	.conteiner-foto {
 		width: 63vw;
-		height: 22vh;
+		height: 25vh;
 	}
 
 	.logo-principal {
@@ -679,6 +720,7 @@
     	display: flex;
     	flex-wrap: wrap;
     	justify-content: space-around;
+    	flex-direction: row;
 	}
 
 	.foto-apresentação, .foto-meio, .foto-final {
@@ -687,10 +729,14 @@
 	}
 
 	.box-inicio {
-		height: 126vh;
+		height: 132vh;
 		flex-direction: row;
     	flex-wrap: wrap;
     	background-size: 100vw 60vh;
+	}
+
+	.box-conteudo {
+		height: 50vh;
 	}
 
 	.conteiner-navegação {
@@ -707,9 +753,19 @@
 		height: 46vh;
 	}
 
+	.conteiner-icones {
+		height: 106vh;
+		align-items: flex-end;
+	}
+
 	.title-important {
 		font-family: KorolevHeavy;
 		font-size: 2.1em;
+		height: 20vh;
+	}
+
+	.menu-social {
+		height: 81vh;
 	}
 
 	.item-alfabetização, .item-reforço, .item-aulas, .item-palestras, .item-artesanato, .item-teatro, .item-dança, .item-capoeira {
@@ -719,11 +775,19 @@
 	.box-impacto {
 		flex-wrap: wrap;
 		justify-content: flex-end;
+		align-items: flex-end;
 		height: 52vh;
+		background-size: 83vw 46vh;
+		background-position: top right;
+	}
+
+	.box-paragrafo {
+		width: 19vw;
+		height: 46vh;
 	}
 
 	.title-impact {
-		width: 33vw;
+		width: 20vw;
 		height: 12vh;
 		font-family: KorolevHeavy;
 		font-size: 2.3em;
@@ -739,7 +803,7 @@
 
 	.conteiner-image {
 		width: 36vw;
-    	height: 31vh;
+    	height: 32vh;
 	}
 
 	.foto-impacto {
@@ -749,54 +813,75 @@
 
 	.box-parceria {
 		height: 70vh;
+		align-items: flex-end;
 	}
 
 	.title-friends {
 		font-family: KorolevHeavy;
 		font-size: 2.4em;
+		width: 77vw;
 	}
 
 	.menu-parceria {
-		width: 76vw;
+		width: 78vw;
     	height: 56vh;
 	}
 
+	.icone-sesc {
+		width: 21vw;
+		height: 23vh;
+	}
+
 	.image-sesc {
-    	width: 20vh;
+    	width: 13vw;
+	}
+
+	.icone-quintal {
+		width: 18vw;
 	}
 
 	.image-quintal {
-    	width: 15vw;
+    	width: 10vw;
+	}
+
+	.icone-radio {
+		width: 36vw;
 	}
 
 	.image-radio {
-    	width: 16vw;
+    	width: 11vw;
 	}
 
 	.image-samba {
-    	width: 22vw;
-	}
-
-	.image-assossiação {
-		width: 12vw;
-	}
-
-	.text-assossiação {
-		width: 25vw;
+    	width: 17vw;
 	}
 
 	.icone-assossiação {
+		width: 16vw;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.image-hashi {
-    	width: 12vw;
+	.image-assossiação {
+		width: 7vw;
+	}
+
+	.text-assossiação {
+		width: 15vw;
+		font-size: 0.6em;
 	}
 
 	.icone-hashi {
-		width: 15vw;
+		width: 36vw;
+	}
+
+	.image-hashi {
+    	width: 9vw;
+	}
+
+	.text-hashi {
+		font-size: 0.7em;
 	}
 
 	.conteiner-photography {
@@ -823,7 +908,7 @@
 	}
 
 	.final-text {
-    	width: 56vw;
+    	width: 40vw;
 	}
 
 	.logo-vnw {
