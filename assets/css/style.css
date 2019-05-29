@@ -282,7 +282,7 @@
 
 .box-contact {
 	background-image: url('../img/fundo_contato.jpg');
-	width: 100vw;
+	width: 100%;
     height: 90vh;
     display: flex;
 	align-items: center;
