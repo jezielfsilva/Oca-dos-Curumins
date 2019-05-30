@@ -176,7 +176,7 @@
 
 .box-impacto {
 	width: 100%;
-	height:	60vh;
+	height:	66vh;
 	background-image: url('../img/fundo_impacto.jpg');
 	display: flex;
 	align-items: center;
@@ -191,7 +191,7 @@
 	font-family: KorolevBold;
 	font-size: 2em;
 	width: 80vw;
-	height: 6vh;
+	height: 10vh;
 	display: flex;
 	align-items: center;
 }
@@ -250,24 +250,62 @@
     list-style: none;
 }
 
+.icone-sesc {
+	width: 42%;
+    height: 30%;
+}
+
 .image-sesc {
 	width: 32vw;
+}
+
+.icone-quintal {
+	width: 37%;
+    height: 30%;
 }
 
 .image-quintal {
 	width: 30vw;
 }
 
+.icone-radio {
+	width: 49%;
+    height: 30%;
+}
+
 .image-radio {
 	width: 29vw;
+}
+
+.icone-samba {
+	width: 45%;
+    height: 30%;
 }
 
 .image-samba {
 	width: 37vw;
 }
 
+.icone-assossiação {
+	width: 42%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .image-assossiação {
 	width: 19vw;
+}
+
+.icone-hashi {
+	width: 45%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .image-hashi {
@@ -277,16 +315,17 @@
 .text-assossiação, .text-hashi {
 	font-family: KorolevBold;
 	font-size: 1em;
-	width: 100%;
+	width: 84%;
 }
 
 .box-contact {
 	background-image: url('../img/fundo_contato.jpg');
 	width: 100%;
-    height: 90vh;
+    height: 87vh;
     display: flex;
 	align-items: center;
 	flex-direction: column;
+	justify-content: flex-end;
 }
 
 .conteiner-photography {
@@ -471,9 +510,9 @@
 		font-size: 1.22em;
 	}
 
-	.conteiner-image, .conteiner-photography {
-		width: 93vw;
-		height: 104vh;
+	.conteiner-image {
+		width: 94vw;
+    	height: 102vh;
 	}
 
 	.foto-impacto {
@@ -497,19 +536,28 @@
     	height: 68vh;
 	}
 
+	.text-hashi {
+		width: 72%;
+	}
+
 	.box-contact {
 		width: 100%;
     	height: 106vh;
 	}
 
+	.conteiner-photography {
+		width: 93vw;
+		height: 41vh;
+	}
+
 	.photography {
 		width: 87vw;
-    	height: 40.6vh;
+    	height: 37.6vh;
 	}
 
 	.conteiner-contato {
 		width: 83vw;
-    	height: 148vh;
+    	height: 62vh;
 	}
 
 	.title-contact {
@@ -541,6 +589,7 @@
 @media (min-width: 425px) {
 	.conteiner-menu {
 		height: 1.97vh;
+		background-size: 96%;
 	}
 
 	.conteiner-navegação {
@@ -637,7 +686,7 @@
 	}
 
 	.icone-quintal {
-		width: 38vw;
+		width: 28vw;
 	}
 
 	.image-quintal {
@@ -654,6 +703,14 @@
 
 	.image-assossiação, .image-hashi {
     	width: 18vw;
+	}
+
+	.text-assossiação {
+		width: 75%;
+	}
+
+	.text-hashi {
+    	width: 63%;
 	}
 
 	.box-contact {
@@ -691,7 +748,7 @@
 
 @media (min-width: 768px) {
 	.conteiner-menu {
-		height: 2.89vh;
+		height: 3.4vh;
 	}
 
 	.logo-menu {
@@ -732,7 +789,8 @@
 		height: 132vh;
 		flex-direction: row;
     	flex-wrap: wrap;
-    	background-size: 100vw 60vh;
+    	background-size: 100vw 73vh;
+    	background-image: url(../img/fundo.png);
 	}
 
 	.box-conteudo {
@@ -852,6 +910,11 @@
     	width: 11vw;
 	}
 
+	.icone-samba {
+    	width: 17%;
+    	height: 30%;
+}
+
 	.image-samba {
     	width: 17vw;
 	}
@@ -873,7 +936,10 @@
 	}
 
 	.icone-hashi {
-		width: 36vw;
+		width: 35vw;
+		display: flex;
+    	flex-direction: column;
+    	align-items: flex-start;
 	}
 
 	.image-hashi {
@@ -882,45 +948,71 @@
 
 	.text-hashi {
 		font-size: 0.7em;
+		width: 34%;
+	}
+
+	.box-contact {
+		height: 52vh;
+		flex-wrap: wrap-reverse;
+    	justify-content: center;
+    	align-items: flex-end;
+    	background-size: 83vw;
+    	background-position: right;
+    	background-repeat: no-repeat;
 	}
 
 	.conteiner-photography {
-    	width: 44vw;
-    	height: 36vh;
+    	width: 36vw;
+    	height: 41vh;
 	}
 
 	.photography {
-		width: 41vw;
-    	height: 33vh;
+		width: 32.9vw;
+    	height: 36.5vh;
+	}
+
+	.conteiner-contato {
+		width: 84vh;
+    	height: 52vh;
+    	display: flex;
+    	align-items: center;
 	}
 
 	.title-contact {
 		font-family: KorolevHeavy;
 		font-size: 2.3em;
+		width: 17vw;
+		height: 70vh;
 	}
 
 	.text-phones {
-    	font-size: 2em;
+    	font-size: 0.9em;
+    	width: 17vw;
+    	height: 27vh;
 	}
 
 	.text-email, .text-address, .text-avenue {
-    	font-size: 1.2em;
+    	font-size: 0.9em;
+    	width: 17vw;
+    	height: 37vh;
 	}
 
 	.final-text {
     	width: 40vw;
+    	font-size: 1em;
 	}
 
 	.logo-vnw {
-    	width: 14vw;
-    	height: 6vh;
+    	width: 12vw;
+    	height: 7vh;
 	}
 }
 
 
 @media (min-width: 1024px) {
 	.conteiner-menu {
-    	height: 2.44vh;
+    	height: 3.48vh;
+    	background-size: 94%;
 	}
 
 	.conteiner-navegação {
@@ -940,6 +1032,7 @@
 		background-image: url(../img/fundo.png);
 		display: flex;
     	justify-content: flex-end;
+    	background-size: 100% 62vh;
 	}
 
 	.box-conteudo {
@@ -957,7 +1050,7 @@
 
 	.texto-apresentação {
     	width: 47vw;
-    	height: 19vh;
+    	height: 30vh;
     	font-size: 1.3em;
 	}
 
@@ -1026,10 +1119,12 @@
 
 	.conteiner-image {
 		width: 34vw;
+		height: 37vh;
 	}
 
 	.foto-impacto {
-		width: 31.9vw;
+		width: 31vw;
+    	height: 33vh
 	}
 
 	.box-parceria {
@@ -1071,7 +1166,7 @@
 
 	.text-assossiação {
 		width: 14vw;
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 
 	.icone-assossiação {
@@ -1079,57 +1174,70 @@
 		align-items: flex-start;
 	}
 
+	.text-hashi {
+		font-size: 1em;
+    	width: 50%;
+	}
+
 	.box-contact {
 		height: 50vh;
-		background-size: 77vw 44vh;
-		background-position: top right;
+		background-size: 76vw;
+		background-repeat: no-repeat;
 		flex-direction: row-reverse;
 		justify-content: flex-start;
+		align-items: center;
 	}
 
 	.conteiner-photography {
-		width: 38vw;
+		width: 34vw;
+		height: 37vh;
 	}
 
 	.photography {
-		width: 35vw;
+		width: 31vw;
     	height: 33vh;
 	}
 
 	.conteiner-contato {
-		width: 35vw;
-    	height: 35vh;
+		width: 38vw;
+    	height: 42vh;
+    	display: flex;
+    	align-items: flex-start;
 	}
 
 	.title-contact {
 		font-size: 2.6em;
 		width: 44vw;
-    	height: 8vh;
+    	height: 22vh;
 	}
 
 	.text-phones {
 		font-family:KorolevMedium;
-		font-size: 1.6em;
-		width: 44vw;
+		font-size: 1.3em;
+    	width: 44vw;
+    	height: 12vh;
 	}
 
 	.text-email {
 		width: 44vw;
-    	height: 12vh;
+    	height: 25vh;
+    	font-size: 1.3em;
 	}
 
 	.text-address {
-		width: 31vw;
-    	height: 5vh;
+		width: 34vw;
+    	height: 18vh;
+    	font-size: 1.3em;
 	}
 
 	.text-avenue {
-		width: 44vw;
-    	height: 4vh;
+		width: 35vw;
+    	height: 7vh;
+    	font-size: 1.3em;
 	}
 
 	.final-text {
-    	font-size: 1.1em;
+    	font-size: 1.09em;
 	}
 
 	.logo-final {
