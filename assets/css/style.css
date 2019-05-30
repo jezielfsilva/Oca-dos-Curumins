@@ -381,7 +381,7 @@
 
 @media (min-width: 375px) {
 	.conteiner-menu {
-		width: 100vw;
+		width: 100%;
 		height: 1.8vh;
 	}
 
@@ -401,7 +401,7 @@
 	}
 
 	.box-inicio {
-		width: 100vw;
+		width: 100%;
 		height: 210vh;
 		background-size: 300vw 90vh;
 	}
@@ -417,7 +417,7 @@
 	}
 
 	.box-images {
-		width: 100vw;
+		width: 100%;
     	height: 134vh;
 	}
 
@@ -427,7 +427,7 @@
 	}
 
 	.conteiner-icones {
-		width: 100vw;
+		width: 100%;
     	height: 126vh;
 	}
 
@@ -444,7 +444,7 @@
 	}
 
 	.box-impacto {
-		width: 100vw;
+		width: 100%;
     	height: 80vh;
 	}
 
@@ -482,7 +482,7 @@
 	}
 
 	.box-parceria {
-		width: 100vw;
+		width: 100%;
     	height: 94vh;
 	}
 
@@ -498,7 +498,7 @@
 	}
 
 	.box-contact {
-		width: 100vw;
+		width: 100%;
     	height: 106vh;
 	}
 
@@ -715,7 +715,7 @@
 	}
 
 	.box-images {
-		width: 100vw;
+		width: 100%;
     	height: 82vh;
     	display: flex;
     	flex-wrap: wrap;
@@ -943,16 +943,16 @@
 	}
 
 	.box-conteudo {
-		width: 100vw;
+		width: 100%;
     	height: 47vh;
     	display: flex;
     	justify-content: flex-start;
-    	align-items: flex-end;
 	}
 
 	.conteiner-foto {
-    	width: 23vw;
+    	width: 100%;
     	height: 44vh;
+    	justify-content: flex-start;
 	}
 
 	.texto-apresentação {
