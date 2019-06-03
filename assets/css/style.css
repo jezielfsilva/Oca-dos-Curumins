@@ -1249,3 +1249,10 @@
     	height: 6vh;
 	}
 }
+
+
+@media (min-width: 1440px) {
+	.image-samba {
+		width: 81%;
+	}
+}
