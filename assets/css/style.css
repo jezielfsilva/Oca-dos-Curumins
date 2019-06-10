@@ -1158,6 +1158,7 @@
 
 	.image-samba {
 		width: 20vw;
+		height: 20vh;
 	}
 
 	.image-assossiação {
@@ -1247,12 +1248,5 @@
 	.logo-vnw {
 		width: 9vw;
     	height: 6vh;
-	}
-}
-
-
-@media (min-width: 1440px) {
-	.image-samba {
-		width: 81%;
 	}
 }
