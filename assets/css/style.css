@@ -489,7 +489,7 @@
 
 	.box-paragrafo {
 		width: 78vw;
-		height: 78vh;
+		height: 38vh;
 		display: flex;
     	flex-direction: column;
     	justify-content: center;
@@ -972,7 +972,7 @@
 	}
 
 	.conteiner-contato {
-		width: 84vh;
+		width: 64vw;
     	height: 52vh;
     	display: flex;
     	align-items: center;
