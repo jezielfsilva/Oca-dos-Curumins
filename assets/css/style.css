@@ -19,7 +19,7 @@
 
 .logo-principal {
 	width: 44vw;
-	height: 13vh
+	height: 15vh;
 }
 
 .conteiner-navegação {
@@ -53,10 +53,12 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	z-index: 99;
 }
 
 .item-menu {
     display: none;
+
 }
 
 .box-inicio {
@@ -1063,7 +1065,6 @@
 
 	.foto-apresentação, .foto-meio, .foto-final {
     	width: 23vw;
-    	height: 25vh;
 	}
 
 	.title-important {
@@ -1118,13 +1119,15 @@
 	}
 
 	.conteiner-image {
-		width: 34vw;
-		height: 37vh;
+		width: 31vw;
+		height: 36vh;
 	}
 
 	.foto-impacto {
 		width: 31vw;
-    	height: 33vh
+    	height: 37vh;
+    	padding: 0.75em;
+    	border-radius: 2em;
 	}
 
 	.box-parceria {
@@ -1190,13 +1193,14 @@
 	}
 
 	.conteiner-photography {
-		width: 34vw;
-		height: 37vh;
+		width: 31vw;
+		height: 36vh;
 	}
 
 	.photography {
 		width: 31vw;
-    	height: 33vh;
+		padding: 0.75em;
+		border-radius: 2em;
 	}
 
 	.conteiner-contato {
