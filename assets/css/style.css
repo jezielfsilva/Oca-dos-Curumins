@@ -6,6 +6,7 @@
 
 .conteiner-menu {
 	width: 100%;
+	height: 100%;
 	height: 1.63vh;
 	background-image: url('../img/topo.svg');
 }
@@ -20,22 +21,23 @@
 .logo-principal {
 	width: 44vw;
 	height: 15vh;
+	display: flex;
+	align-self: center;
 }
 
 .conteiner-navegação {
-	width: 65vw;
+	width: 100%;
     height: 35vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .box-menu {
-	width: 48vw;
+	width: 95%;
     height: 30vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .logo-menu {
@@ -47,9 +49,8 @@
 	list-style: none;
 	font-family: KorolevBold;
 	color: #006C1C;
-	font-size: 1.6em;
-	width: 40vw;
-	height: 24.3vh;
+	font-size: 2.6em;
+	width: 70%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -418,336 +419,6 @@
     height: 7vh;
 }
 
-
-
-@media (min-width: 375px) {
-	.conteiner-menu {
-		width: 100%;
-		height: 1.8vh;
-	}
-
-	.conteiner-navegação {
-		width: 46vw;
-		height: 40vh;
-	}
-
-	.logo-menu {
-		width: 10vw;
-    	height: 5vh;
-	}
-
-	.box-menu {
-		width: 34vw;
-		height: 35vh;
-	}
-
-	.box-inicio {
-		width: 100%;
-		height: 210vh;
-		background-size: 300vw 90vh;
-	}
-
-	.box-conteudo {
-		width: 83vw;
-    	height: 46vh;
-	}
-
-	.logo-principal {
-		width: 36vw;
-    	height: 15vh;
-	}
-
-	.box-images {
-		width: 100%;
-    	height: 134vh;
-	}
-
-	.foto-apresentação, .foto-meio, .foto-final {
-		width: 94vw;
-    	height: 42vh;
-	}
-
-	.conteiner-icones {
-		width: 100%;
-    	height: 126vh;
-	}
-
-	.menu-social {
-		width: 80vw;
-    	height: 118vh;
-	}
-
-	.item-alfabetização, .item-reforço, .item-aulas, .item-palestras, .item-artesanato, .item-teatro, .item-dança, .item-capoeira {
-		width: 27vw;
-		display: flex;
-    	flex-direction: column;
-    	align-items: center;
-	}
-
-	.box-impacto {
-		width: 100%;
-    	height: 80vh;
-	}
-
-	.box-paragrafo {
-		width: 78vw;
-		height: 38vh;
-		display: flex;
-    	flex-direction: column;
-    	justify-content: center;
-	}
-
-	.conteiner-foto {
-		width: 77vw;
-    	height: 22vh;
-	}
-
-	.texto-apresentação {
-		font-size: 1.15em;
-	}
-
-	.paragrafo-depoimento {
-		width: 80vw;
-    	height: 21vh;
-		font-size: 1.22em;
-	}
-
-	.conteiner-image {
-		width: 94vw;
-    	height: 102vh;
-	}
-
-	.foto-impacto {
-		width: 87vw;
-    	height: 41.6vh;
-	}
-
-	.box-parceria {
-		width: 100%;
-    	height: 94vh;
-	}
-
-	.title-friends {
-		width: 80vw;
-		height: 11vh;
-    	align-items: flex-end;
-	}
-
-	.menu-parceria {
-		width: 80vw;
-    	height: 68vh;
-	}
-
-	.text-hashi {
-		width: 72%;
-	}
-
-	.box-contact {
-		width: 100%;
-    	height: 106vh;
-	}
-
-	.conteiner-photography {
-		width: 93vw;
-		height: 41vh;
-	}
-
-	.photography {
-		width: 87vw;
-    	height: 37.6vh;
-	}
-
-	.conteiner-contato {
-		width: 83vw;
-    	height: 62vh;
-	}
-
-	.title-contact {
-		width: 80vw;
-    	height: 12vh;
-	}
-
-	.text-phones {
-		font-size: 1.9em;
-		width: 80vw;
-    	height: 15vh;
-	}
-
-	.text-email, .text-address {
-		font-size: 1.2em;
-	}
-
-	.text-avenue {
-		font-size: 1.19em;
-	}
-
-	.final-text {
-		font-size: 1.1em;
-	}
-}
-
-
-
-@media (min-width: 425px) {
-	.conteiner-menu {
-		height: 1.97vh;
-		background-size: 96%;
-	}
-
-	.conteiner-navegação {
-		width: 50vw;
-		height: 46vh;
-	}
-
-	.box-menu {
-		width: 38vw;
-		height: 38vh;
-	}
-
-	.box-inicio {
-		height: 226vh;
-	}
-
-	.conteiner-foto {
-		width: 53vw;
-    	height: 21vh;
-	}
-
-	.logo-principal {
-		width: 30vw;
-		height: 15vh;
-	}
-
-	.texto-apresentação {
-		font-size: 1.3em;
-		height: 25vh;
-	}
-
-	.box-images {
-		height: 152vh;
-	}
-
-	.foto-apresentação, .foto-meio, .foto-final {
-		height: 47vh;
-	}
-
-	.item-alfabetização, .item-artesanato, .item-teatro {
-		width: 28vw;
-	}
-
-	.item-reforço {
-    	width: 24.4vw;
-	}
-
-	.item-aulas, .item-palestras {
- 	   width: 30vw;
-	}
-
-	.item-dança, .item-capoeira {
-    	width: 26vw;
-	}
-
-	.box-impacto {
-		height: 89vh;
-	}
-
-	.box-paragrafo {
-		height: 42vh;
-	}
-
-	.paragrafo-depoimento {
-		font-size: 1.39em;
-		height: 26vh;
-	}
-
-	.conteiner-image, .conteiner-photography {
-		height: 44vh;
-	}
-
-	.foto-impacto {
-		width: 87.9vw;
-    	height: 40.5vh;
-	}
-
-	.box-parceria {
-		height: 102vh;
-		justify-content: unset;
-	}
-
-	.title-friends {
-		height: 12vh;
-    	align-items: flex-end;
-	}
-
-	.menu-parceria {
-		height: 89vh;
-	}
-
-	.image-sesc {
-    	width: 30vw;
-	}
-
-	.icone-quintal {
-		width: 28vw;
-	}
-
-	.image-quintal {
-    	width: 23vw;
-	}
-
-	.image-radio {
-    	width: 27vw;
-	}
-
-	.image-samba {
-    	width: 37vw;
-	}
-
-	.image-assossiação, .image-hashi {
-    	width: 18vw;
-	}
-
-	.text-assossiação {
-		width: 75%;
-	}
-
-	.text-hashi {
-    	width: 63%;
-	}
-
-	.box-contact {
-		justify-content: flex-end;
-	}
-
-	.photography {
-		width: 87.1vw;
-    	height: 39.6vh;
-	}
-
-	.conteiner-contato {
-		height: 57vh;
-	}
-
-	.text-phones {
-    	font-size: 2.1em;
-	}
-
-	.text-email, .text-address {
-    	font-size: 1.3em;
-    	height: 12vh;
-	}
-
-	.text-avenue {
-    	font-size: 1.35em;
-    	height: 6vh;
-	}
-
-	.final-text {
-    	font-size: 1.2em;
-	}
-}
-
-
 @media (min-width: 768px) {
 	.conteiner-menu {
 		height: 3.4vh;
@@ -764,8 +435,8 @@
 	}
 
 	.logo-principal {
-    	width: 20vw;
-    	height: 20vh;
+   
+    	height: auto;
 	}
 
 	.texto-apresentação {
@@ -791,8 +462,7 @@
 		height: 132vh;
 		flex-direction: row;
     	flex-wrap: wrap;
-    	background-size: 100vw 73vh;
-    	background-image: url(../img/fundo.png);
+    	background-position-x: right;
 	}
 
 	.box-conteudo {
@@ -800,17 +470,18 @@
 	}
 
 	.conteiner-navegação {
-		width: 35vw;
+		width: 100%;
 		height: 56vh;
 	}
 
 	.lista-menu {
-		height: 32.3vh;
+		height: 32%;
+		padding-left: 2rem;
 	}
 
 	.box-menu {
-		width: 26vw;
-		height: 46vh;
+		width: 90%;
+		height: 30vh;
 	}
 
 	.conteiner-icones {
@@ -1018,7 +689,9 @@
 	}
 
 	.conteiner-navegação {
-		height: 75vh;
+		width: 20%;
+		height: 100%;
+		position: fixed;
 	}
 
 	.logo-menu {
@@ -1027,6 +700,11 @@
 
 	.item-menu {
 		display: block;
+	}
+
+	a {
+		text-decoration: none;
+    	color: #006C1C;
 	}
 
 	.box-inicio {
@@ -1041,18 +719,18 @@
 		width: 100%;
     	height: 47vh;
     	display: flex;
-    	justify-content: flex-start;
+    	justify-content: flex-end;
 	}
 
 	.conteiner-foto {
     	width: 100%;
-    	height: 44vh;
+    	height: 30%;
     	justify-content: flex-start;
 	}
 
 	.texto-apresentação {
     	width: 47vw;
-    	height: 30vh;
+    	height: 17vh;
     	font-size: 1.3em;
 	}
 
@@ -1251,6 +929,5 @@
 
 	.logo-vnw {
 		width: 9vw;
-    	height: 6vh;
 	}
 }
