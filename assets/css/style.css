@@ -519,12 +519,12 @@
 
 	.conteiner-image {
 		width: 36vw;
-    	height: 32vh;
+    	height: 41vh;
 	}
 
 	.foto-impacto {
 		width: 32.9vw;
-    	height: 28.5vh;
+    	height: 36.5vh;
 	}
 
 	.box-parceria {
@@ -796,12 +796,11 @@
 
 	.conteiner-image {
 		width: 36vw;
-		height: 46vh;
+		height: auto;
 	}
 
 	.foto-impacto {
 		width: 36vw;
-    	height: 46vh;
     	padding: 0.75em;
     	border-radius: 2em;
 	}
@@ -861,7 +860,7 @@
 	}
 
 	.box-contact {
-		height: 50vh;
+		height: 73vh;
 		background-size: 76vw;
 		background-repeat: no-repeat;
 		flex-direction: row-reverse;
@@ -870,19 +869,19 @@
 	}
 
 	.conteiner-photography {
-		width: 31vw;
-		height: 36vh;
+		width: 36vw;
+		height: auto;
 	}
 
 	.photography {
-		width: 31vw;
+		width: 36vw;
 		padding: 0.75em;
 		border-radius: 2em;
 	}
 
 	.conteiner-contato {
-		width: 38vw;
-    	height: 42vh;
+		width: 34vw;
+    	height: 50vh;
     	display: flex;
     	align-items: flex-start;
 	}
@@ -901,7 +900,7 @@
 	}
 
 	.text-email {
-		width: 44vw;
+		width: 33vw;
     	height: 25vh;
     	font-size: 1.3em;
 	}
