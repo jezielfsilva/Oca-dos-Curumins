@@ -1,0 +1,14 @@
+@font-face {
+	font-family: KorolevBold;
+	src: url(../fonts/KorolevBold.woff);
+}
+
+@font-face {
+	font-family: KorolevMedium;
+	src: url(../fonts/KorolevMedium.woff);
+}
+
+@font-face {
+	font-family: KorolevHeavy;
+	src: url(../fonts/KorolevHeavy.woff);
+}

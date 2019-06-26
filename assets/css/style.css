@@ -1,0 +1,935 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+.conteiner-menu {
+	width: 100%;
+	height: 1.82vh;
+	background-image: url('../img/topo.svg');
+	background-repeat-y: no-repeat;
+}
+
+.conteiner-foto {
+	width: 54vw;
+	height: 17vh;
+	display: flex;
+	justify-content: center;
+}
+
+.logo-principal {
+	width: 50%;
+	display: flex;
+	align-self: center;
+}
+
+.conteiner-navegação {
+	width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box-menu {
+	width: 95%;
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo-menu {
+	width: 11vw;
+    height: 5vh;
+}
+
+.lista-menu {
+	list-style: none;
+	font-family: KorolevBold;
+	color: #006C1C;
+	font-size: 2.6em;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	z-index: 99;
+}
+
+.item-menu {
+    display: none;
+
+}
+
+.box-inicio {
+	width: 100%;
+    height: 170vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1)), url('../img/fundo.png');
+   	background-size: 300vw 62vh;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.box-conteudo {
+	width: 100%;
+	height: 39vh;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-images {
+	width: 100%;
+	height: 130vh;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-apresentação {
+	width: 80vw;
+	height: 18vh;
+	font-size: 1em;
+	font-family: KorolevBold;
+	color: #000000;
+}
+
+.foto-apresentação, .foto-meio, .foto-final {
+	width: 94vw;
+	height: 42vh;
+	border-radius: 2em;
+}
+
+.conteiner-icones {
+	width: 100%;
+	height:	128vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title-important {
+	font-family: KorolevBold;
+	color: #000000;
+	font-size: 2em;
+	width: 80vw;
+	height: 6vh;
+	display: flex;
+	align-items: center;
+}
+
+.menu-social {
+	list-style: none;
+    font-size: 1em;
+    font-family: KorolevBold;
+    color: #000000;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item-alfabetização, .item-artesanato, .item-teatro {
+	width: 30vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item-reforço {
+	width: 25vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item-aulas, .item-palestras {
+	width: 32vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item-dança, .item-capoeira {
+	width: 28vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box-impacto {
+	width: 100%;
+	height:	78vh;
+	background-image: url('../img/fundo_impacto.jpg');
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-size: 100vw 50vh;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.title-impact {
+	color: #FFFF00;
+	font-family: KorolevBold;
+	font-size: 2em;
+	width: 80vw;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+.paragrafo-depoimento {
+	width: 75vw;
+	height: 18vh;
+	font-size: 1em;
+	font-family: KorolevMedium;
+	color: #FFFFFF;
+}
+
+.conteiner-image {
+	width: 94vw;
+	height: 44vh;
+	background-color: #FFFFFF;
+	border-radius: 2em;
+	box-shadow: 0em 0.2em 0.5em #A9A9A9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foto-impacto {
+	width: 87vw;
+	height: 40.6vh;
+	border-radius: 1.6em;
+}
+
+.box-parceria {
+	width: 100%;
+    height: 90vh;
+   	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.title-friends {
+	color: #000000;
+	font-family: KorolevBold;
+	font-size: 2em;
+	width: 80vw;
+	height: 6vh;
+	display: flex;
+	align-items: center;
+}
+
+.menu-parceria {
+	width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.icone-sesc {
+	width: 42%;
+    height: 30%;
+}
+
+.image-sesc {
+	width: 32vw;
+}
+
+.icone-quintal {
+	width: 37%;
+    height: 30%;
+}
+
+.image-quintal {
+	width: 30vw;
+}
+
+.icone-radio {
+	width: 49%;
+    height: 30%;
+}
+
+.image-radio {
+	width: 29vw;
+}
+
+.icone-samba {
+	width: 45%;
+    height: 30%;
+}
+
+.image-samba {
+	width: 37vw;
+}
+
+.icone-assossiação {
+	width: 42%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-assossiação {
+	width: 19vw;
+}
+
+.icone-hashi {
+	width: 45%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-hashi {
+	width: 23vw;
+}
+
+.text-assossiação, .text-hashi {
+	font-family: KorolevBold;
+	font-size: 1em;
+	width: 84%;
+}
+
+.box-contact {
+	background-image: url('../img/fundo_contato.jpg');
+	width: 100%;
+    height: 92vh;
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.conteiner-photography {
+	width: 94vw;
+	height: 44vh;
+	background-color: #FFFFFF;
+	border-radius: 2em;
+	box-shadow: 0em 0.2em 0.5em #A9A9A9;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.photography {
+	width: 87vw;
+	height: 40.6vh;
+	border-radius: 1.6em;
+}
+
+.conteiner-contato {
+	width: 88vw;
+	height: 46vh;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-contact {
+	color: #FFFF00;
+	font-family: KorolevBold;
+	font-size: 2em;
+	width: 80vw;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+.text-phones {
+	width: 62vw;
+	height: 14vh;
+	font-size: 1.2em;
+	font-family: KorolevBold;
+	color: #FFFFFF;
+}
+
+.text-email {
+	width: 80vw;
+	height: 14vh;
+	font-size: 1em;
+	font-family: KorolevMedium;
+	color: #FFFFFF;
+}
+
+.text-address, .text-avenue {
+	width: 80vw;
+	height: 8vh;
+	font-size: 1em;
+	font-family: KorolevMedium;
+	color: #FFFFFF;
+}
+
+.conteiner-final {
+	width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-text {
+	font-family: KorolevMedium;
+	font-size: 1em;
+	width: 37vw;
+    height: 3vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-final {
+	width: 45vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo-vnw {
+	width: 21vw;
+    height: 7vh;
+}
+
+@media (min-width: 768px) {
+	.conteiner-menu {
+		height: 3.4vh;
+	}
+
+	.logo-menu {
+    	width: 6vw;
+    	height: 6vh;
+	}
+
+	.conteiner-foto {
+		width: 63vw;
+		height: 25vh;
+	}
+
+	.logo-principal {
+   		width: 35%;
+	}
+
+	.texto-apresentação {
+		width: 63vw;
+		height: 19vh;
+	}
+
+	.box-images {
+		width: 100%;
+    	height: 82vh;
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+    	flex-direction: row;
+	}
+
+	.foto-apresentação, .foto-meio, .foto-final {
+		width: 34vw;
+		height: 34vh;
+	}
+
+	.box-inicio {
+		height: 110vh;
+		flex-direction: row;
+    	flex-wrap: wrap;
+    	background-size: 274vw 60vh;
+	}
+
+	.box-conteudo {
+		height: 20vh;
+	}
+
+	.conteiner-navegação {
+		width: 100%;
+		height: 40vh;
+	}
+
+	.lista-menu {
+		height: 38%;
+		padding-left: 2rem;
+	}
+
+	.box-menu {
+		width: 90%;
+		height: 40vh;
+	}
+
+	.conteiner-icones {
+		height: 106vh;
+		align-items: flex-end;
+	}
+
+	.title-important {
+		font-family: KorolevHeavy;
+		font-size: 2.1em;
+		height: 20vh;
+	}
+
+	.menu-social {
+		height: 81vh;
+	}
+
+	.item-alfabetização, .item-reforço, .item-aulas, .item-palestras, .item-artesanato, .item-teatro, .item-dança, .item-capoeira {
+		width: 16.5vw;
+	}
+
+	.box-impacto {
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		align-items: flex-end;
+		height: 52vh;
+		background-size: 83vw 46vh;
+		background-position: top right;
+	}
+
+	.box-paragrafo {
+		width: 19vw;
+		height: 46vh;
+	}
+
+	.title-impact {
+		width: 20vw;
+		height: 12vh;
+		font-family: KorolevHeavy;
+		font-size: 2.3em;
+	}
+
+	.paragrafo-depoimento {
+		width: 33vw;
+		height: 40vh;
+		font-size: 1em;
+		display: flex;
+    	align-items: flex-start;
+	}
+
+	.conteiner-image {
+		width: 36vw;
+    	height: 41vh;
+	}
+
+	.foto-impacto {
+		width: 32.9vw;
+    	height: 36.5vh;
+	}
+
+	.box-parceria {
+		height: 70vh;
+		align-items: flex-end;
+	}
+
+	.title-friends {
+		font-family: KorolevHeavy;
+		font-size: 2.4em;
+		width: 77vw;
+	}
+
+	.menu-parceria {
+		width: 78vw;
+    	height: 56vh;
+	}
+
+	.icone-sesc {
+		width: 21vw;
+		height: 23vh;
+	}
+
+	.image-sesc {
+    	width: 13vw;
+	}
+
+	.icone-quintal {
+		width: 18vw;
+	}
+
+	.image-quintal {
+    	width: 10vw;
+	}
+
+	.icone-radio {
+		width: 36vw;
+	}
+
+	.image-radio {
+    	width: 11vw;
+	}
+
+	.icone-samba {
+    	width: 17%;
+    	height: 30%;
+}
+
+	.image-samba {
+    	width: 17vw;
+	}
+
+	.icone-assossiação {
+		width: 16vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.image-assossiação {
+		width: 7vw;
+	}
+
+	.text-assossiação {
+		width: 15vw;
+		font-size: 0.6em;
+	}
+
+	.icone-hashi {
+		width: 35vw;
+		display: flex;
+    	flex-direction: column;
+    	align-items: flex-start;
+	}
+
+	.image-hashi {
+    	width: 9vw;
+	}
+
+	.text-hashi {
+		font-size: 0.7em;
+		width: 34%;
+	}
+
+	.box-contact {
+		height: 52vh;
+		flex-wrap: wrap-reverse;
+    	justify-content: center;
+    	align-items: flex-end;
+    	background-size: 83vw;
+    	background-position: right;
+    	background-repeat: no-repeat;
+	}
+
+	.conteiner-photography {
+    	width: 36vw;
+    	height: 41vh;
+	}
+
+	.photography {
+		width: 32.9vw;
+    	height: 36.5vh;
+	}
+
+	.conteiner-contato {
+		width: 64vw;
+    	height: 52vh;
+    	display: flex;
+    	align-items: center;
+	}
+
+	.title-contact {
+		font-family: KorolevHeavy;
+		font-size: 2.3em;
+		width: 17vw;
+		height: 70vh;
+	}
+
+	.text-phones {
+    	font-size: 0.9em;
+    	width: 17vw;
+    	height: 27vh;
+	}
+
+	.text-email, .text-address, .text-avenue {
+    	font-size: 0.9em;
+    	width: 17vw;
+    	height: 37vh;
+	}
+
+	.final-text {
+    	width: 40vw;
+    	font-size: 1em;
+	}
+
+	.logo-vnw {
+    	width: 12vw;
+    	height: 7vh;
+	}
+}
+
+
+@media (min-width: 1024px) {
+	.conteiner-menu {
+    	height: 3.42vh;
+    	background-size: 100%;
+	}
+
+	.conteiner-navegação {
+		width: 20%;
+		height: 100%;
+		position: fixed;
+	}
+
+	.box-menu {
+		height: 90%;
+    	display: flex;
+    	justify-content: flex-start;
+	}
+
+	.logo-principal {
+		width: 138%;
+	}
+
+	.logo-menu {
+		width: 0vw;
+	}
+
+	.item-menu {
+		display: block;
+	}
+
+	a {
+		text-decoration: none;
+    	color: #006C1C;
+	}
+
+	.box-inicio {
+		height: 90vh;
+		background-image: url(../img/fundo.png);
+		display: flex;
+    	justify-content: flex-end;
+    	background-size: 100% 76vh;
+	}
+
+	.box-conteudo {
+		width: 100%;
+    	height: 47vh;
+    	display: flex;
+    	justify-content: flex-end;
+	}
+
+	.conteiner-foto {
+    	width: 100%;
+    	height: 30%;
+    	justify-content: flex-start;
+	}
+
+	.texto-apresentação {
+    	width: 47vw;
+    	height: 17vh;
+    	font-size: 1.3em;
+	}
+
+	.box-images {
+		width: 78vw;
+    	height: 25vh;
+    	display: flex;
+    	justify-content: space-around;
+	}
+
+	.foto-apresentação, .foto-meio, .foto-final {
+    	width: 23vw;
+	}
+
+	.title-important {
+		font-size: 2.5em;
+		width: 74vw;
+		height: 26vh;
+	}
+
+	.conteiner-icones {
+		align-items: flex-end;
+	}
+
+	.menu-social {
+		width: 75vw;
+    	height: 76vh;
+    	font-size: 1.28em;
+	}
+
+	.item-alfabetização, .item-reforço, .item-aulas, .item-palestras, .item-artesanato, .item-teatro, .item-dança, .item-capoeira {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.icone {
+		width: 9vw;
+	}
+
+	.box-impacto {
+		background-size: 76vw 49vh;
+    	height: 66vh;
+    	align-items: center;
+    	flex-direction: row;
+    	background-position: top right;
+	}
+
+	.box-paragrafo {
+		width: 36vw;
+	}
+
+	.title-impact {
+		width: 22vw;
+    	height: 12vh;
+		font-size: 2.9em;
+		align-items: flex-start;
+	}
+
+	.paragrafo-depoimento {
+		width: 34vw;
+    	height: 32vh;
+    	font-size: 1.3em;
+    	align-items: flex-start;
+    	line-height: 1.6em;
+	}
+
+	.conteiner-image {
+		width: 36vw;
+		height: auto;
+	}
+
+	.foto-impacto {
+		width: 36vw;
+    	padding: 0.75em;
+    	border-radius: 2em;
+	}
+
+	.box-parceria {
+		align-items: flex-end;
+		height: 94vh;
+	}
+
+	.title-friends {
+		font-size: 2.7em;
+		width: 72vw;
+	}
+
+	.menu-parceria {
+		width: 74vw;
+	}
+
+	.icone-sesc, .icone-quintal, .icone-radio, .icone-samba, .icone-assossiação, .icone-hashi {
+		width: 19vw;
+	}
+
+	.image-sesc {
+		width: 16vw;
+	}
+
+	.image-quintal {
+		width: 13vw;
+	}
+
+	.image-radio {
+		width: 14vw;
+	}
+
+	.image-samba {
+		width: 20vw;
+		height: 20vh;
+	}
+
+	.image-assossiação {
+		width: 10vw;
+	}
+
+	.text-assossiação {
+		width: 14vw;
+		font-size: 0.9em;
+	}
+
+	.icone-assossiação {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	.text-hashi {
+		font-size: 1em;
+    	width: 50%;
+	}
+
+	.box-contact {
+		height: 73vh;
+		background-size: 76vw;
+		background-repeat: no-repeat;
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.conteiner-photography {
+		width: 36vw;
+		height: auto;
+	}
+
+	.photography {
+		width: 36vw;
+		padding: 0.75em;
+		border-radius: 2em;
+	}
+
+	.conteiner-contato {
+		width: 34vw;
+    	height: 50vh;
+    	display: flex;
+    	align-items: flex-start;
+	}
+
+	.title-contact {
+		font-size: 2.6em;
+		width: 44vw;
+    	height: 22vh;
+	}
+
+	.text-phones {
+		font-family:KorolevMedium;
+		font-size: 1.3em;
+    	width: 44vw;
+    	height: 12vh;
+	}
+
+	.text-email {
+		width: 33vw;
+    	height: 25vh;
+    	font-size: 1.3em;
+	}
+
+	.text-address {
+		width: 34vw;
+    	height: 18vh;
+    	font-size: 1.3em;
+	}
+
+	.text-avenue {
+		width: 35vw;
+    	height: 7vh;
+    	font-size: 1.3em;
+	}
+
+	.final-text {
+    	font-size: 1.09em;
+	}
+
+	.logo-final {
+		width: 50vw;
+	}
+
+	.logo-vnw {
+		width: 9vw;
+	}
+}
