@@ -823,7 +823,7 @@
 	.box-impact {
 		display: flex;
 		align-items: center;
-		width: 72vw;
+		width: 75vw;
 		height: 50vh;
 	}
 
@@ -832,7 +832,7 @@
 	}
 
 	.title-impact {
-		width: 22vw;
+		width: 34vw;
     	height: 12vh;
 		font-size: 2.9em;
 		align-items: flex-start;
@@ -925,7 +925,7 @@
     	align-items: center;
     	justify-content: center;
     	flex-direction: row-reverse;
-    	width: 72vw;
+    	width: 75vw;
     	height: 50vh;
 	}
 
@@ -941,7 +941,7 @@
 	}
 
 	.conteiner-contato {
-		width: 34vw;
+		width: 36vw;
     	height: 50vh;
     	display: flex;
     	align-items: flex-start;
