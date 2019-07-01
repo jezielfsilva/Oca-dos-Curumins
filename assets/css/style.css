@@ -48,8 +48,32 @@
     height: 5vh;
 }
 
-.lista-menu {
-	list-style: none;
+@media (max-width: 768px) {
+	#lista-menu {
+		display: none;
+	}
+
+	#lista-menu._menuOpen {
+		list-style: none;
+		font-family: KorolevBold;
+		color: #006C1C;
+		font-size: 1.6em;
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		z-index: 99;
+	}
+
+	a {
+		text-decoration: none;
+		color: #006C1C;
+	}
+}
+
+
+.menu-lista {
+    list-style: none;
 	font-family: KorolevBold;
 	color: #006C1C;
 	font-size: 2.6em;
@@ -58,11 +82,6 @@
 	flex-direction: column;
 	justify-content: space-around;
 	z-index: 99;
-}
-
-.item-menu {
-    display: none;
-
 }
 
 .box-inicio {
@@ -182,13 +201,14 @@
 .box-impact {
 	display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .box-paragrafo {
 	display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
+    align-items: flex-start;
+    width: 85%;
 }
 
 .title-impact {
