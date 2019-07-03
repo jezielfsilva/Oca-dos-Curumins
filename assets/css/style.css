@@ -137,7 +137,7 @@
 
 .conteiner-icones {
 	width: 100%;
-	height:	134vh;
+	height:	140vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -268,7 +268,7 @@
 	font-family: KorolevBold;
 	font-size: 2em;
 	width: 80vw;
-	height: 6vh;
+	height: 14vh;
 	display: flex;
 	align-items: center;
 }
