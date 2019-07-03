@@ -37,15 +37,17 @@
 
 .box-menu {
 	width: 95%;
-    height: 36vh;
+    height: 47vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .logo-menu {
 	width: 11vw;
     height: 5vh;
+    z-index: 1;
+    margin-top: 3vw;
+    margin-left: 3vw;
 }
 
 @media (max-width: 768px) {
@@ -58,11 +60,16 @@
 		font-family: KorolevBold;
 		color: #006C1C;
 		font-size: 1.6em;
-		width: 70%;
+		width: 50%;
+		height: 46%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
-		z-index: 99;
+		justify-content: flex-end;
+		z-index: 0;
+		background-color: #fff;
+    	position: absolute;
+    	line-height: 1.7;
+    	margin-left: 3vw;
 	}
 
 	a {
@@ -76,12 +83,13 @@
     list-style: none;
 	font-family: KorolevBold;
 	color: #006C1C;
-	font-size: 2.6em;
+	font-size: 2.2em;
 	width: 70%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	z-index: 99;
+	line-height: 1.5;
 }
 
 .box-inicio {
@@ -1007,6 +1015,6 @@
 	}
 
 	.logo-vnw {
-		width: 9vw;
+		width: 8vw;
 	}
 }
