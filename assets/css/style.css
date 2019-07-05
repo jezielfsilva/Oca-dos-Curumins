@@ -65,13 +65,17 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
+		align-items: center;
 		z-index: 0;
 		background-color: #fff;
     	position: absolute;
     	line-height: 1.7;
-    	margin-left: 3vw;
     	border-radius: 0em 0em 0.9em;
     	box-shadow: 0.1em 0.1em 0.2em #A9A9A9;
+	}
+
+	.item-menu {
+		width: 42vw;
 	}
 
 	a {
