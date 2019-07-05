@@ -61,7 +61,7 @@
 		color: #006C1C;
 		font-size: 1.6em;
 		width: 50%;
-		height: 46%;
+		height: 50%;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
@@ -70,7 +70,6 @@
     	position: absolute;
     	line-height: 1.7;
     	margin-left: 3vw;
-    	margin-top: 1.4em;
 	}
 
 	a {
